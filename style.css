@@ -1,30 +1,87 @@
+
 body{
-    margin: 0;
-    padding: 0;
     font-family: Roboto;
+    margin: 0;
+    padding:0;
 }
 
 h1{
     font-size: 30px;
 }
+
 .highlight{
     color:orange;
 }
 
-.half_left{
+.half_width{
     width: 40%;
-    margin: 0 auto;
+    margin-left: 5%;
+    padding-left: 2%;
     float: left;
-    overflow: hidden;
-    margin: 5%;
 }
-.half_right{
-    width: 40%;
-    margin: 0 auto;
-    float: left;
-    overflow: hidden;
-    margin: 5%;
+
+.half_width img{
+    width: 80%;
 }
-.half_right img{
-    width: 100%;
+
+.top_bannar{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 25px;
+ 
+}
+
+.btnstyle {
+	text-decoration: none;
+	background-image: linear-gradient(45deg, lightSalmon, tomato);
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff,;
+	font-weight: 700;
+}
+
+.rafiq {
+	text-decoration: none;
+	background-image: linear-gradient(45deg, lightSalmon, tomato);
+	padding: 10px 20px;
+	border-radius: 5%;
+}
+
+.dream_area{
+    padding-top: 50px;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+
+.experiacne_area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+
+.single_experiacne{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    padding-top: 40px;
+}
+#exp_left{
+    border-left:7px solid rgb(14, 207, 56);
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#exp_right{
+    border-left:7px solid rgb(14, 207, 56);
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 17px;
 }
