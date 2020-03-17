@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+
+
+   <!-- pseudo class  Style-->
+    <style>
+        .rafiq:hover{
+            color:#ff0000;
+        }
+        input:focus{
+            color:red;
+        }
+        li:first-child{
+            color:green;
+        }
+        li:last-child{
+            color:red;
+        }
+        li:nth-child(2n+1){
+            color:salmon;
+        }
+        a:visited{
+            color:sienna;
+        }
+    </style>
+
+
+       <!-- pseudo Elements -->
+    <style>
+        h1::before{
+            content: "Rafiqul ";
+            color:red;
+            font-size: 15px;
+            background-color: sienna;
+        }
+        h1::after{
+            content: " Islam";
+            color:green;
+            font-size: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!-- pseudo class -->
+    <h1>Pseudo</h1>
+    <h1>Normal class</h1>
+    <h1 class="rafiq">Vodra Class</h1>
+
+    <input  name="name" type="text">
+    <input  name="email" type="email">
+    <input  name="password" id="password" type="password">
+
+<ul>
+    <li>Alia</li>
+    <li>Dalia</li>
+    <li>Kali</li>
+    <li>Nalia</li>
+    <li>Falaiya</li>
+    <li>haraya</li>
+    <li>Naraya</li>
+</ul>
+
+<style>
+    body{
+        counter-reset: counter_parameter;
+    }
+    p::before{
+        counter-increment: counter_parameter;
+        Content :"Crush " counter(counter_parameter)": ";
+    }
+</style>
+
+    <p>Alia</p>
+    <p>Dalia</p>
+    <p>Kali</p>
+    <p>Nalia</p>
+    <p>Falaiya</p>
+    <p>haraya</p>
+    <p>Naraya</p>
+
+
+
+<br>
+<a href="https://youtube.com/c/jhankarmahbub">Youtube</a>
+<a href="https://youtube.com/c/openjanala">Youtube</a>
+
+
+
+   <!-- pseudo Elements -->
+
+
+</body>
+</html>

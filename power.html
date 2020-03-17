@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power</title>
+    <style>
+        h1{
+            color:cyan;
+        }
+        .second_color{
+            color:lightsalmon;
+        }
+        #third_color{
+            color:rgb(41, 187, 36);
+        }
+        .four_color{
+            color:maroon !important;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1 id="third_color" class="second_color four_color" style="color:red">Hellow World, Barak Obama</h1>
+    </section>
+    <section>
+        <ul>
+            <li> 1. Overflow</li>
+            <li>2. Responsive</li>
+            <li>3. Animation</li>
+            <li>4. CSS3</li>
+            <li>5. Advance selector</li>
+        </ul>
+        <style>
+            #overflow{
+                /* overflow: visible; */
+                overflow: hidden;
+                /* overflow: scroll; */
+                /* overflow: auto; */
+                color: maroon;
+                width: 200px;
+                height: 100px;
+                background-color: mediumpurple;
+            }
+        </style>
+         <!-- overflow -->
+        <p id="overflow">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sequi enim, incidunt veritatis dolorem inventore, a ratione harum omnis quos nam quod. Ex quia fugit dolorum voluptas rem pariatur voluptate?
+        </p>
+    
+
+       <!-- Responsive Area-->
+       <style>
+           .container{
+               width: 1200px;
+               margin: 0 auto;
+           }
+           .row::after{
+               content: "";
+               clear: both;
+               display: table;
+
+           }
+           .col-md-3{
+               width: 25%;
+               overflow: hidden;
+               display: block;
+           }
+           .col-md-9{
+               width: 75%;
+               overflow: hidden;
+               display: block;
+           }
+       </style>
+        <div class="container">
+           <div class="row">
+            <div class="col-md-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aliquid suscipit nisi architecto quaerat illo impedit eligendi quia praesentium velit corrupti quod dolorem minus, necessitatibus culpa soluta, earum voluptates quisquam.</p>
+            </div>
+            <div class="col-md-9">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aliquid suscipit nisi architecto quaerat illo impedit eligendi quia praesentium velit corrupti quod dolorem minus, necessitatibus culpa soluta, earum voluptates quisquam.</p>
+            </div>
+           </div>
+        </div>
+
+        
+    </section>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+     <!-- Animation Area-->
+<style>
+    @keyframes move{
+        from { laft: 0px;}
+        to { right:200px}
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        background: red;
+        position: relative;
+        animation:move 5s infinite;
+    }
+</style>
+<section>
+<div>fdfsdfsd</div>
+</section>
+
+</body>
+</html>
